@@ -1,0 +1,12 @@
+{
+    "name": "mohamed/laravelblog",
+    "description": "laravel blog",
+    "authors": [
+        {
+            "name": "Mohamed Benhida",
+            "email": "mohameedbenhida@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
