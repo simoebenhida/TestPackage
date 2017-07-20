@@ -1,6 +1,7 @@
 {
     "name": "mohamed/laravelblog",
     "description": "laravel blog",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mohamed Benhida",
@@ -12,8 +13,7 @@
         "php": ">=5.3.0"
     },
    "autoload": {
-        "psr-4": {
-            "Tests\\": "tests/",
+        "psr-0": {
             "Laravel\\Blog\\": "src/"
         }
     }
