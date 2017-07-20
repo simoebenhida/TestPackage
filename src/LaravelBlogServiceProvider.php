@@ -38,9 +38,9 @@ class LaravelBlogServiceProvider extends ServiceProvider
            });
 
            $this->app->alias('laravel.blog',Blog::class);
-           $this->app->resolving(function ($object, $app) {
-                config(['blog.info.name' => 'Change']);
-            });
+           // $this->app->resolving(function ($object, $app) {
+           //      config(['blog.info.name' => 'Change']);
+           //  });
     }
 
     private function registerPublishableResources()
